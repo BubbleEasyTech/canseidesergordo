@@ -1,6 +1,12 @@
-import { Youtube, Instagram, MessageCircle } from "lucide-react";
+import { Youtube, Instagram, MessageCircle, Facebook } from "lucide-react";
 import logoCircular from "@/assets/logo-circular.png";
 import capaYoutube from "@/assets/capa-youtube.png";
+
+const TikTokIcon = ({ size = 24 }: { size?: number }) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="currentColor">
+    <path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.27 6.27 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.34-6.34V8.75a8.18 8.18 0 004.76 1.52V6.84a4.84 4.84 0 01-1-.15z" />
+  </svg>
+);
 
 const LINKS = [
   {
@@ -14,6 +20,18 @@ const LINKS = [
     href: "https://www.instagram.com/eucanseidesergordo/",
     icon: Instagram,
     color: "bg-gradient-to-r from-purple-500 via-pink-500 to-orange-400 hover:opacity-90",
+  },
+  {
+    label: "TikTok",
+    href: "https://www.tiktok.com/@eucanseidesergordo",
+    icon: TikTokIcon,
+    color: "bg-gray-900 hover:bg-gray-800 border border-gray-700",
+  },
+  {
+    label: "Facebook",
+    href: "https://www.facebook.com/canseidesergordo",
+    icon: Facebook,
+    color: "bg-blue-600 hover:bg-blue-500",
   },
   {
     label: "WhatsApp",
