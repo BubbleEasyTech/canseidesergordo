@@ -57,10 +57,19 @@ const Index = () => {
         {/* Bio */}
         <div className="mt-6 w-full bg-card/60 backdrop-blur-sm rounded-xl p-5 border border-border opacity-0 animate-fade-in-up-delay-2">
           <p className="text-foreground/80 text-center text-sm leading-relaxed">
-            🔥 Transformando vidas através de saúde, emagrecimento e motivação.
-            Aqui você encontra dicas práticas, treinos e a energia que faltava
-            pra mudar de vez. Bora junto!
+            <strong className="text-primary">Cansei de Ser Gordo</strong> é um movimento na internet criado em 2013 pelo jornalista <strong className="text-secondary">Jorge Bentes</strong>, que depois de emagrecer 80 quilos, transformou sua jornada em missão de vida.
           </p>
+          <p className="text-foreground/80 text-center text-sm leading-relaxed mt-3">
+            Hoje, o Cansei de Ser Gordo tem mais de <strong>300 mil seguidores</strong> nas redes sociais e virou uma plataforma de luta contra a obesidade e conscientização sobre essa doença tão grave.
+          </p>
+          <p className="text-foreground/80 text-center text-sm leading-relaxed mt-3">
+            🔥 Faça parte desse movimento e siga a gente nas redes sociais.
+          </p>
+          <div className="mt-3 text-center text-xs text-muted-foreground space-y-1">
+            <p>Instagram e TikTok — <span className="text-foreground/70">@eucanseidesergordo</span></p>
+            <p>YouTube e Facebook — <span className="text-foreground/70">Cansei de Ser Gordo</span></p>
+            <p className="mt-2">📧 <a href="mailto:jobentes@gmail.com" className="text-primary hover:underline">jobentes@gmail.com</a></p>
+          </div>
         </div>
 
         {/* Links */}
