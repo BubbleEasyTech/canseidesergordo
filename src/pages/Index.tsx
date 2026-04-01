@@ -1,4 +1,4 @@
-import { Youtube, Instagram, MessageCircle, Facebook } from "lucide-react";
+import { Youtube, Instagram, Facebook } from "lucide-react";
 import logoCircular from "@/assets/logo-circular.png";
 import capaYoutube from "@/assets/capa-youtube.png";
 
@@ -32,12 +32,6 @@ const LINKS = [
     href: "https://www.facebook.com/canseidesergordo",
     icon: Facebook,
     color: "bg-blue-600 hover:bg-blue-500",
-  },
-  {
-    label: "WhatsApp",
-    href: "https://wa.me/5500000000000",
-    icon: MessageCircle,
-    color: "bg-green-600 hover:bg-green-500",
   },
 ];
 
