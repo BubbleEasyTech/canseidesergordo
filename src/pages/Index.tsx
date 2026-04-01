@@ -1,4 +1,4 @@
-import { Youtube, Instagram, MessageCircle, Facebook } from "lucide-react";
+import { Youtube, Instagram, Facebook } from "lucide-react";
 import logoCircular from "@/assets/logo-circular.png";
 import capaYoutube from "@/assets/capa-youtube.png";
 
