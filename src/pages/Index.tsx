@@ -33,12 +33,6 @@ const LINKS = [
     icon: Facebook,
     color: "bg-blue-600 hover:bg-blue-500",
   },
-  {
-    label: "WhatsApp",
-    href: "https://wa.me/5500000000000",
-    icon: MessageCircle,
-    color: "bg-green-600 hover:bg-green-500",
-  },
 ];
 
 const Index = () => {
