@@ -29,7 +29,7 @@ const LINKS = [
   },
   {
     label: "Facebook",
-    href: "https://www.facebook.com/canseidesergordo",
+    href: "https://www.facebook.com/canseidesergordooficial",
     icon: Facebook,
     color: "bg-blue-600 hover:bg-blue-500",
   },
